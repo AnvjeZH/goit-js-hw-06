@@ -5,9 +5,9 @@ const textColorEl = document.querySelector('.color')
 btnEl.addEventListener('click', onChangeBackroundColor)
 
 function onChangeBackroundColor(event) {
-
-bodyEl.style.backgroundColor = getRandomHexColor()
+ 
  const resultFn = getRandomHexColor()
+bodyEl.style.backgroundColor = resultFn
 textColorEl.textContent = resultFn
 }
 
